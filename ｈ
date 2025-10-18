@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>    
+    <title>我要餓鼠了</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        #question-box {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        
+        #answer-display{
+            border: 1px solid #ddd;
+            padding: 10px;
+            min-height: 100px;
+            margin-top: 20px;
+        }
+    </style>    
+</head>
+<body>
+    <h1>歡迎來到蘋蘋菜單系統</h1>
+    <p>本人在不吃飯會餓扁</p>
+    <input type = "text"
+    id = "question-box" placeholder="請輸入今天吃什麼？">
+    <button onclick="answerQuestion()">送出</button>
+    
+    <div id = "answer-display">
+        不管你寫什麼,我現在都會餓鼠了！
+    </div>
+    
+</body>
+</html>
+
